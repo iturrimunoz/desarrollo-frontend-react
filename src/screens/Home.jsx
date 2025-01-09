@@ -13,7 +13,7 @@ const Home = () => {
                 redirectURL="https://vite.dev"
                 logoImage={viteLogo}
             />
-  <OpenLink
+            <OpenLink
                 redirectURL="https://react.dev"
                 logoImage={reactLogo}
             />
@@ -23,6 +23,7 @@ const Home = () => {
             />
             <Body />
             <Footer />
+        
         </div>
     );
 }
