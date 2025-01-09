@@ -4,8 +4,8 @@ import gitHubLogo from "../../assets/github.png";
 const Logo = () => {
     return (
         <div>
-                <a href="https://github.com/iturrimunoz/github.png" target="_blank">
-                  <img src={viteLogo} className="logo" alt="Github logo" />
+                <a href="https://github.com/iturrimunoz/desarrollo-frontend-react" target="_blank">
+                  <img src={gitHubLogo} className="logo" alt="Github logo" />
                 </a>
                    
         </div>
