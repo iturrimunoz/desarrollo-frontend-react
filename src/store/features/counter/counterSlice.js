@@ -1,7 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  value: 0,
+    //Acá se definen todas las variables globales del componente Counter.jsx
+  value: 10,
+  isLogged: 'false',
+//   name: 'José Miguel'
+
 }
 
 export const counterSlice = createSlice({

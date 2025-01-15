@@ -1,14 +1,12 @@
-import gitHubLogo from "../../assets/github.png";
-
-
-const Logo = () => {
-    return (
-        <div>
-                <a href="https://github.com/iturrimunoz/desarrollo-frontend-react" target="_blank">
-                  <img src={gitHubLogo} className="logo" alt="Github logo" />
-                </a>
-                   
-        </div>
-    );
+import githubLogo from "../../assets/github.svg";
+const GitHub = () => {
+  return (
+    <div>
+      <a href="https://github.com/iturrimunoz/desarrollo-frontend-react.git" target="_blank">
+        <img src={githubLogo} className="logo github" alt="Github logo" />
+      </a>
+    </div>
+  );
 };
-export default Logo;
+
+export default GitHub;
