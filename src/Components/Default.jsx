@@ -1,12 +1,15 @@
 import { useState } from "react";
 
 const Default = () => {
-  const [count, setCount] = useState(0);
-  return (
+
+    const [count, setCount] = useState(0)
+
+    return (
     <div>
-            
-    </div>
-  );
+     
+      
+      </div>
+    );
 };
 
 export default Default;

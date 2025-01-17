@@ -1,15 +1,20 @@
-import "./App.css";
-import Home from "./screens/Home.jsx";
-import Counter from './Components/Counter/Counter.jsx'
-import Product from "./screens/Product.jsx";
+import './App.css'
+//import Default from './components/default'
+import Home from './screens/Home'
+import Counter from './components/Counter/Counter.jsx';
+import Product from './screens/Product'
+
+import Navigator from './components/Navigation/Navigator.jsx';
+import Router from './components/Navigation/Router.jsx';
 function App() {
+
+
   return (
     <>
-      <Home></Home>
-      <Counter></Counter>
-      <Product></Product>
+      <Navigator />
+      <Router />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

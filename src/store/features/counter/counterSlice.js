@@ -1,11 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    //Acá se definen todas las variables globales del componente Counter.jsx
+    // aca se de define todas la variables del componente COUNTER.jsx
   value: 10,
-  isLogged: 'false',
-//   name: 'José Miguel'
-
+  isLogged: 'true',
 }
 
 export const counterSlice = createSlice({
@@ -13,10 +11,7 @@ export const counterSlice = createSlice({
   initialState,
   reducers: {
     increment: (state) => {
-      // Redux Toolkit allows us to write "mutating" logic in reducers. It
-      // doesn't actually mutate the state because it uses the Immer library,
-      // which detects changes to a "draft state" and produces a brand new
-      // immutable state based off those changes
+  
       state.value += 1
     },
     decrement: (state) => {
